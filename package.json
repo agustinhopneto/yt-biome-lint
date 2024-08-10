@@ -1,0 +1,17 @@
+{
+  "name": "biome-lint",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "tsx ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4"
+  }
+}
