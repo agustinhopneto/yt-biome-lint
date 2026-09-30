@@ -1,46 +1,48 @@
 <div align="center">
 
-# 🧹 Pare de usar o BiomeJS do jeito errado
+# 🧹 Stop Using BiomeJS the Wrong Way
 
-**Configurações avançadas de lint e formatação com o Biome.**
+**Advanced lint and formatting configuration with Biome.**
 
 ![Biome](https://img.shields.io/badge/Biome-60A5FA?style=for-the-badge&logo=biome&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-[![YouTube](https://img.shields.io/badge/Assista_no_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=3kvXuBoVTXI)
-[![DevClub PRO](https://img.shields.io/badge/Canal-DevClub_PRO-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DevClubPRO)
+[![YouTube](https://img.shields.io/badge/Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=3kvXuBoVTXI)
+[![DevClub PRO](https://img.shields.io/badge/Channel-DevClub_PRO-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DevClubPRO)
 
 </div>
 
 ---
 
-## 🎬 Vídeo
+## 🎬 Video
 
-Este repositório acompanha o vídeo do canal **[DevClub PRO](https://www.youtube.com/@DevClubPRO)**:
+This repository accompanies a video from the **[DevClub PRO](https://www.youtube.com/@DevClubPRO)** channel:
 
 <div align="center">
 
-<a href="https://www.youtube.com/watch?v=3kvXuBoVTXI" title="Pare de usar o BiomeJS do jeito errado | Seja Pro">
-  <img src="https://img.youtube.com/vi/3kvXuBoVTXI/maxresdefault.jpg" alt="Pare de usar o BiomeJS do jeito errado | Seja Pro" width="720" />
+<a href="https://www.youtube.com/watch?v=3kvXuBoVTXI" title="Stop Using BiomeJS the Wrong Way | Go Pro">
+  <img src="https://img.youtube.com/vi/3kvXuBoVTXI/maxresdefault.jpg" alt="Stop Using BiomeJS the Wrong Way | Go Pro" width="720" />
 </a>
 
-**▶️ [Pare de usar o BiomeJS do jeito errado | Seja Pro](https://www.youtube.com/watch?v=3kvXuBoVTXI)**
+**▶️ [Stop Using BiomeJS the Wrong Way | Go Pro](https://www.youtube.com/watch?v=3kvXuBoVTXI)**
+
+<sub>🇧🇷 The video is in Brazilian Portuguese.</sub>
 
 </div>
 
-## 📖 Sobre
+## 📖 About
 
-Neste projeto vamos além do básico com o **Biome**: um `biome.json` personalizado, com regras de lint ligadas e desligadas de forma consciente e um formatter configurado nos detalhes. O código de exemplo (`src/index.ts`) dispara de propósito regras como `noForEach`, `noStaticOnlyClass` e `noExplicitAny`.
+This project goes beyond the basics of **Biome**: a custom `biome.json` with lint rules deliberately turned on and off, and a finely tuned formatter. The sample code (`src/index.ts`) intentionally triggers rules such as `noForEach`, `noStaticOnlyClass` and `noExplicitAny`.
 
-## 🎯 O que você vai aprender
+## 🎯 What you’ll learn
 
-- Entender os grupos de regras do linter (`complexity`, `suspicious`...)
-- Desligar regras específicas quando elas não fazem sentido para o seu projeto
-- Configurar o formatter: aspas, ponto e vírgula, `lineWidth`, indentação, `bracketSameLine`
-- Usar o Biome com TypeScript
+- Understand the linter rule groups (`complexity`, `suspicious`...)
+- Turn off specific rules when they don’t make sense for your project
+- Configure the formatter: quotes, semicolons, `lineWidth`, indentation, `bracketSameLine`
+- Use Biome with TypeScript
 
-## ⚙️ Configuração usada
+## ⚙️ Configuration used
 
 ```json
 {
@@ -68,30 +70,30 @@ Neste projeto vamos além do básico com o **Biome**: um `biome.json` personaliz
 }
 ```
 
-## 💻 Comandos do Biome
+## 💻 Biome commands
 
 ```bash
-npx @biomejs/biome check ./src          # verifica
-npx @biomejs/biome check --write ./src  # corrige
+npx @biomejs/biome check ./src          # check
+npx @biomejs/biome check --write ./src  # fix
 ```
 
-## 🚀 Como rodar
+## 🚀 Getting started
 
-> Pré-requisito: [Node.js](https://nodejs.org/) 18+
+> Prerequisite: [Node.js](https://nodejs.org/) 18+
 
 ```bash
-# 1. Clone o repositório
+# 1. Clone the repository
 git clone https://github.com/agustinhopneto/yt-biome-lint.git
 cd yt-biome-lint
 
-# 2. Instale as dependências
+# 2. Install the dependencies
 npm install
 
-# 3. Execute o exemplo
+# 3. Run the example
 npm start
 ```
 
-## 🛠️ Tecnologias
+## 🛠️ Tech stack
 
 ![Biome](https://img.shields.io/badge/Biome-60A5FA?style=for-the-badge&logo=biome&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -101,10 +103,10 @@ npm start
 
 <div align="center">
 
-Curtiu? Deixa um ⭐ no repositório e se inscreva no canal!
+Enjoyed it? Leave a ⭐ on the repo and subscribe to the channel!
 
-[![Inscreva-se](https://img.shields.io/badge/Inscreva--se-DevClub_PRO-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DevClubPRO?sub_confirmation=1)
+[![Subscribe](https://img.shields.io/badge/Subscribe-DevClub_PRO-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DevClubPRO?sub_confirmation=1)
 
-Feito com 💙 por **[Agustinho Neto](https://github.com/agustinhopneto)**
+Made with 💙 by **[Agustinho Neto](https://github.com/agustinhopneto)**
 
 </div>
